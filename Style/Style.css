@@ -1,0 +1,156 @@
+/* Scroll padding agar sticky-nav tidak menutupi target scroll */
+html {
+  scroll-padding-top: 130px;
+}
+
+/* General Styling */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 249, 237);
+  color: #333;
+}
+
+/* Box Model Examples */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.full-media {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px auto;
+  border: none;
+  padding: 0;
+  box-sizing: border-box;
+  box-shadow: 0 4px 10px#333;
+  background-color: #333;
+  border-radius: 10px;
+}
+
+/* Header*/
+header {
+  background-color:  rgb(255, 249, 237);
+  padding: 0px 0px 0px 0px;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 10px 40px #333;
+}
+
+footer{
+  background-color: rgb(250, 189, 206);
+  padding: 0px 0px 0px 0px;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 10px 40px #5e5e5e;
+}
+
+/* Judul utama */
+.main-title {
+  font-size: 80px;
+  margin: 0px auto;
+  margin-top: 20px;
+  padding: 10px 0;
+  background-color: rgb(250, 189, 206);
+  color: #333;
+  border-radius: 10px;
+}
+
+.sticky-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color:rgb(250, 189, 206);
+  padding: 0px 0px 0px 0px;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 10px 40px #5e5e5e;
+  z-index: 999;
+  text-align: center;
+  height: 100px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  padding-top: 100px; 
+}
+
+.audio-note {
+  text-align: center;
+  color: #333;
+  padding: 25px 80px 100px 10px;
+  margin-top: 0; 
+  margin-bottom: 10px;
+  background-color: rgb(255, 249, 237);
+  display: block;
+  border-radius: 0px;
+  box-shadow: 0 0px 0px #333;
+}
+
+/* Section Titles */
+h2 {
+  border-bottom: 1px solid rgb(250, 189, 206);
+  padding-bottom: 5px;
+  color: #333;
+  scroll-margin-top: 100px;
+}
+
+/* Section Style */
+section {
+  scroll-margin-top: 37px;
+  box-shadow: 0 4px 12px #333;
+  padding: 40px;
+  border-radius: 15px;
+  margin-bottom: 110px;
+  background-color:rgb(250, 189, 206);
+}
+
+/* Links */
+nav a, footer a {
+  margin: 0 5px;
+  text-decoration: none;
+  color:#333;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+nav a:hover, footer a:hover {
+  color: rgb(255, 249, 237);
+  text-decoration: underline;
+}
+
+/* Form */
+form input, form select, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 249, 237);
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: rgb(255, 255, 255);
+  color: #333;
+  border: none;
+  cursor: pointer;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+    padding: 15px;
+  }
+}

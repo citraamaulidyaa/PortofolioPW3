@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portofolio Pribadi</title>
+  <link rel="stylesheet" href="Style/Style.css"/>
+</head>
+<body>
+
+  <nav class="sticky-nav">
+    <div class="container">
+      <a href="#home">Beranda</a> |
+      <a href="#about">Tentang Saya</a> |
+      <a href="#projects">Proyek/Karya</a> |
+      <a href="#multimedia">Multimedia</a> |
+      <a href="#formulir">Formulir</a>
+    </div>
+  </nav>
+  
+  <header>
+    <div id="home">
+    <div class="container">
+      <h1 class="main-title">Portofolio Pribadi</h1>
+    </div>
+    </div>
+  </header>
+  
+  <div class="audio-note">
+    <p>Yuk! lihat lihat sambil dengerin musik𝄞</p>
+    <audio controls>
+      <source src="Audio/Untukku - Chrisye.mp3" type="audio/mp3" />
+    </audio>
+  </div>
+
+  <main class="container">
+    <section id="about">
+      <h2>Tentang Saya</h2>
+      <img src="Gambar/profil.png" alt="profil" class="full-media">
+      <img src="Gambar/hobi.png" alt="hobi" class="full-media">
+    </section>
+
+    <section id="projects">
+      <h2>Proyek / Karya</h2>
+      <img src="Gambar/proyek.png" alt="proyek" class="full-media">
+    </section>
+
+    <section id="multimedia">
+      <h2>Multimedia</h2>
+      <p>Vidio Profil dosen Sistem Informasi UISI</p>
+      <video controls class="full-media">
+        <source src="Vidio/profil dosen.mp4" type="video/mp4">
+      </video>
+    </section>
+
+    <section id="formulir">
+      <h2>Formulir</h2>
+      <p>Jika ingin menghubungi saya, silahkan isi formulir dibawah ini.</p>
+      <form action="#" method="post">
+        <input type="text" name="nama" placeholder="Nama lengkap" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="tel" name="nomor telepon" placeholder="Nomor Telepon" required>
+        <textarea name="pesan" rows="5" placeholder="Tulis pesan..." required></textarea>
+        <button type="submit">Kirim</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>
+        <a href="https://wa.me/6285812798061" target="_blank">WhatsApp</a> |
+        <a href="https://www.instagram.com/mauldycitra" target="_blank">Instagram</a>
+      </p>
+      <p>&copy; 2025 Citra Maulidya. Semua Hak Cipta Dilindungi.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
